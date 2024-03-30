@@ -51,32 +51,20 @@ const Contactus = () => {
                         {/* contract information */}
                         <div className="flex gap-5">
                             <div>
-                                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
-                                    icon
-                                </h2>
-                                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                                    your information
-                                </p>
-
-                            </div>
-                            <div>
-                                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
-                                    icon
-                                </h2>
-                                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                                    +1 (555) 000-0000
-                                </p>
-
-                            </div>
-                            <div>
-
-                                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
-                                    icon
-                                </h2>
-                                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                                    wllie.johndoe@example.com
-                                </p>
-
+                                <ul className='flex justify-center w-full items-start lg:items-start text-white gap-10'>
+                                    <li className='flex lg:justify-start flex-col items-start gap-3'>
+                                        <img src={icon1} alt="" className='h-5 w-5' />
+                                        <h1>7480 Mockingbird <br /> Hill undefined </h1>
+                                    </li>
+                                    <li className='flex justify-start flex-col items-start gap-3'>
+                                        <img src={icon2} alt="" className='h-5 w-5' />
+                                        <h1>(239) 555-0108</h1>
+                                    </li>
+                                    <li className='flex justify-start flex-col items-start gap-3'>
+                                        <img src={icon1} alt="" className='h-5 w-5' />
+                                        <h1>(239) 555-0108</h1>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
