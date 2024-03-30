@@ -1,5 +1,4 @@
 @font-face {
     font-family: 'Graphik';
-    src: url('./fonts/Graphik-Regular.woff2') format('woff2'),
-        url('./fonts/Graphik-Regular.woff') format('woff'),
+    src: url('./Fonts//Graphik-Regular.ttf') format('woff2');
 }

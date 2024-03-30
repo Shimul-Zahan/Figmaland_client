@@ -2,13 +2,14 @@ import React from 'react'
 
 const Pricing = () => {
     return (
-        <div className=''>
+        <div id='pricing' className=''>
             <div className="max-w-screen-xl bg-[#252b42] mx-auto px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                 <div className="text-center w-full pt-10 pb-20">
                     <h2 className="text-3xl font-medium sm:text-5xl text-white">Pricing</h2>
 
-                    <p className="mt-4 text-white text-2xl py-2">
-                        Most calendars are designed for teams. <br /> Slate is designed for freelancers
+                    <p className="mt-4 hidden lg:block text-white text-lg lg:text-2xl">
+                        Most calendars are designed for teams. <br />
+                        Slate is designed for freelancers
                     </p>
                 </div>
                 <div className="flex justify-center flex-col lg:flex-row items-center gap-10">
@@ -30,102 +31,36 @@ const Pricing = () => {
                                 </div>
                             </p>
                         </div>
-                        <div className="pb-6 sm:px-8">
+                        <div className="pb-6 px-10">
                             <ul className="mt-2 space-y-2 sm:mt-4 text-center">
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-indigo-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> 10 users </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-indigo-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> 2GB of storage </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-indigo-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> Email support </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-red-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> Help center access </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-red-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> Phone support </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-red-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> Community access </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
                             </ul>
                             <a
                                 className="mt-4 block rounded-full border border-indigo-600 bg-indigo-600 px-16 py-3 text-center text-lg font-bold text-white hover:bg-transparent cursor-pointer sm:mt-6 hover:bg-indigo-600"
                             >
-                                Get Started
+                                Order Now
                             </a>
                         </div>
 
@@ -146,103 +81,36 @@ const Pricing = () => {
                                 <span className="text-sm font-medium text-white text-center">/month</span>
                             </p>
                         </div>
-                        <div className="p-6 sm:px-8">
+                        <div className="p-6 px-10">
                             <ul className="mt-2 space-y-2 sm:mt-4 text-center">
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-indigo-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span className="text-white text-center"> 10 users </span>
+                                    <span className="text-white text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-indigo-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span className="text-white text-center"> 2GB of storage </span>
+                                    <span className="text-white text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-indigo-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span className="text-white text-center"> Email support </span>
+                                    <span className="text-white text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-red-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span className="text-white text-center"> Help center access </span>
+                                    <span className="text-white text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-red-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span className="text-white text-center"> Phone support </span>
+                                    <span className="text-white text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-red-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span className="text-white text-center"> Community access </span>
+                                    <span className="text-white text-center"> Pricing Feature </span>
                                 </li>
                             </ul>
                             <a
-                                className="mt-8 block rounded-full border  bg-white text-[#2091F9] px-16 py-3 text-center text-lg font-bold"
-                                href="#"
+                                className="mt-8 block rounded-full border cursor-pointer bg-white text-[#2091F9] px-16 py-3 text-center text-lg font-bold"
                             >
-                                Get Started
+                                Order Now
                             </a>
                         </div>
 
@@ -266,102 +134,36 @@ const Pricing = () => {
                                 </div>
                             </p>
                         </div>
-                        <div className="pb-6 sm:px-8">
+                        <div className="pb-6 px-10">
                             <ul className="mt-2 space-y-2 sm:mt-4 text-center">
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-indigo-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> 10 users </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-indigo-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> 2GB of storage </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-indigo-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> Email support </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-red-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> Help center access </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-red-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> Phone support </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
 
                                 <li className="flex items-center gap-1 justify-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth="1.5"
-                                        stroke="currentColor"
-                                        className="size-5 text-red-700"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span className="text-black text-center"> Community access </span>
+                                    <span className="text-black text-center"> Pricing Feature </span>
                                 </li>
                             </ul>
                             <a
                                 className="mt-4 block rounded-full border border-indigo-600 bg-indigo-600 px-16 py-3 text-center text-lg font-bold text-white hover:bg-transparent cursor-pointer sm:mt-6 hover:bg-indigo-600"
                             >
-                                Get Started
+                                Order Now
                             </a>
                         </div>
 

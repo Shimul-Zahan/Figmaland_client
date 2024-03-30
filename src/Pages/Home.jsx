@@ -11,7 +11,7 @@ import Testimonials from '../Components/Testimonials'
 
 const Home = () => {
     return (
-        <div className='bg-[#252b42] w-full h-full'>
+        <div className='bg-[#252b42] w-full h-full font-graphik'>
             <Banner />
             <Features />
             <Video />

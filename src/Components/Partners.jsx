@@ -12,8 +12,13 @@ const Partners = () => {
                     <div className="text-center w-full">
                         <h2 className="text-3xl sm:text-5xl">Partners</h2>
 
-                        <p className="mt-4 text-white text-2xl pt-2">
-                            Most calendars are designed for teams. <br /> Slate is designed for freelancers
+                        <p className="mt-4 hidden lg:block text-white text-lg lg:text-2xl">
+                            Most calendars are designed for teams. <br />
+                            Slate is designed for freelancers
+                        </p>
+
+                        <p className="mt-5 block lg:hidden max-w-[250px] text-white mx-auto lg:max-w-full lg:px-0 text-lg">
+                            Most calendars are designed for teams.
                         </p>
                     </div>
 

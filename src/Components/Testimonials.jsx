@@ -1,24 +1,32 @@
 import image from '../assets/bannner/ibm.png'
 import profile from '../assets/bannner/Ellipse 2.png'
+import profile2 from '../assets/bannner/smallprof.png'
 
 const Testimonials = () => {
     return (
         <div className='bg-[#2091F9]'>
-            <section className="mx-auto bg-[#252b42] max-w-7xl text-white">
+            <section className="mx-auto py-20 bg-[#252b42] max-w-7xl text-white">
                 <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                     <div className="text-center w-full">
                         <h2 className="text-3xl font-medium sm:text-4xl lg:pb-5">Testimonials</h2>
                     </div>
                     <div className="flex items-center flex-col justify-center">
                         <img src={image} alt="" className='h-full w-32 py-10' />
-                        <p className="text-white text-center text-lg py-4">
+                        <p className="text-white text-center lg:text-lg py-4 px-16">
                             Most calendars are designed for teams. Slate is designed for freelancers <br /> who want a simple way to plan their schedule.
                         </p>
                     </div>
-                    <div className='flex justify-center items-center gap-4 pt-10'>
+                    <div className='hidden lg:flex justify-center items-center gap-4 pt-10'>
                         <img src={profile} alt="" className='h-10 w-10 rounded-l-full' />
-                        <div className='text-base'>
-                            <h1>Eleush Zahan</h1>
+                        <div className=' text-xs lg:text-base'>
+                            <h1>Organize across</h1>
+                            <h1>UI/UX Designer</h1>
+                        </div>
+                    </div>
+                    <div className='lg:hidden flex justify-center items-center gap-4 pt-10'>
+                        <img src={profile2} alt="" className='h-10 w-10 rounded-l-full' />
+                        <div className=' text-xs lg:text-base'>
+                            <h1>Organize across</h1>
                             <h1>UI/UX Designer</h1>
                         </div>
                     </div>

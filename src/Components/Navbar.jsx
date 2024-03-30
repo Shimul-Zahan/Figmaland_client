@@ -10,11 +10,11 @@ const Navbar = () => {
 
     const [open, setOpen] = useState(false);
     const menus = [
-        { path: '/', route: 'home' },
-        { path: '/product', route: 'product' },
-        { path: '/pricing', route: 'pricing' },
-        { path: '/about', route: 'about' },
-        { path: '/contact', route: 'contact' },
+        { path: 'home', route: 'home' },
+        { path: 'product', route: 'product' },
+        { path: 'pricing', route: 'pricing' },
+        { path: 'about', route: 'about' },
+        { path: 'contact', route: 'contact' },
     ]
 
     return (
@@ -23,7 +23,9 @@ const Navbar = () => {
                 <ul className='hidden lg:flex justify-between items-center gap-10 text-lg capitalize'>
                     {
                         menus.map((menu, idx) =>
-                            <li>{menu.route}</li>
+                            <li key={idx}>
+                                <a href={`#${menu.path}`}>{menu.route}</a>
+                            </li>
                         )
                     }
                     <img src={logo} alt="" />
