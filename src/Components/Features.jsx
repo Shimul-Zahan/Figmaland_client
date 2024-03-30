@@ -1,6 +1,6 @@
-import icon1 from '../assets/bannner/Vector.png'
-import icon2 from '../assets/bannner/Vector (1).png'
-import icon3 from '../assets/bannner/Vector (2).png'
+import icon1 from '../assets/bannner/Vector (5).png'
+import icon2 from '../assets/bannner/Vector (6).png'
+import icon3 from '../assets/bannner/Vector (8).png'
 
 const Features = () => {
     return (

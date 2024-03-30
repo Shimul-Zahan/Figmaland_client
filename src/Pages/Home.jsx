@@ -5,6 +5,9 @@ import Features from '../Components/Features'
 import Video from '../Components/Video'
 import WayToOrganized from '../Components/WayToOrganized'
 import Contactus from '../Components/Contactus'
+import Lightning from '../Components/Lightning'
+import Partners from '../Components/Partners'
+import Testimonials from '../Components/Testimonials'
 
 const Home = () => {
     return (
@@ -13,7 +16,10 @@ const Home = () => {
             <Features />
             <Video />
             <WayToOrganized />
+            <Lightning />
+            <Partners />
             <Pricing />
+            <Testimonials />
             <Contactus />
         </div>
     )

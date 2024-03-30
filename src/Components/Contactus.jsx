@@ -6,12 +6,11 @@ import icon3 from '../assets/bannner/Vector (2).png'
 const Contactus = () => {
     return (
         <div>
-            <div className="py-24">
+            <div className="py-24 max-w-7xl mx-auto">
 
                 <h1 className="text-center text-2xl font-semibold text-white">Contact us</h1>
                 <p className='text-center text-white'>Heres Details</p>
-                <div
-                    className="grid md:grid-cols-2 gap-16 items-center relative overflow-hidden p-10  rounded-3xl max-w-6xl mx-auto my-6 ">
+                <div className="grid md:grid-cols-2 gap-16 justify-between items-center relative overflow-hidden p-10  rounded-3xl max-w-7xl mx-auto my-6 ">
                     <div className="p-4 py-6 rounded-lg bg-white dark:bg-gray-800 md:p-8 shadow-lg">
                         <form>
                             <div className="mt-4">
@@ -46,21 +45,21 @@ const Contactus = () => {
                     </div>
 
 
-                    <div className="relative h-full max-md:min-h-[350px]">
+                    <div className="relative h-full max-md:min-h-[350px] w-full">
 
                         {/* contract information */}
                         <div className="flex gap-5">
                             <div>
                                 <ul className='flex justify-center w-full items-start lg:items-start text-white gap-10'>
-                                    <li className='flex lg:justify-start flex-col items-start gap-3'>
+                                    <li className='flex lg:justify-center flex-col items-center gap-3'>
                                         <img src={icon1} alt="" className='h-5 w-5' />
-                                        <h1>7480 Mockingbird <br /> Hill undefined </h1>
+                                        <h1 className='text-center'>6386 Spring St undefined Anchorage, <br /> Georgia 12473 United States</h1>
                                     </li>
-                                    <li className='flex justify-start flex-col items-start gap-3'>
+                                    <li className='flex lg:justify-center flex-col items-center gap-3'>
                                         <img src={icon2} alt="" className='h-5 w-5' />
                                         <h1>(239) 555-0108</h1>
                                     </li>
-                                    <li className='flex justify-start flex-col items-start gap-3'>
+                                    <li className='flex lg:justify-center flex-col items-center gap-3'>
                                         <img src={icon1} alt="" className='h-5 w-5' />
                                         <h1>(239) 555-0108</h1>
                                     </li>
