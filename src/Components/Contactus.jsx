@@ -5,8 +5,8 @@ import icon3 from '../assets/bannner/Vector (2).png'
 
 const Contactus = () => {
     return (
-        <div>
-            <div className="py-24 max-w-7xl mx-auto">
+        <div className='bg-[#2091F9]'>
+            <div className="py-24 bg-[#252b42] max-w-7xl mx-auto">
 
                 <h1 className="text-center text-2xl font-semibold text-white">Contact us</h1>
                 <p className='text-center text-white'>Heres Details</p>

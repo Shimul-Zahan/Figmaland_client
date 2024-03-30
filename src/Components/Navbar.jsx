@@ -18,7 +18,7 @@ const Navbar = () => {
     ]
 
     return (
-        <div className='fixed left-0 right-0 mx-auto lg:w-[1210px] h-[100px] text-white flex justify-center items-center'>
+        <div className='left-0 right-0 mx-auto lg:w-[1210px] h-[100px] text-white flex justify-center items-center'>
             <div className='flex justify-between items-center w-full'>
                 <ul className='hidden lg:flex justify-between items-center gap-10 text-lg capitalize'>
                     {

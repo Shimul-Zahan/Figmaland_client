@@ -18,8 +18,8 @@ const Home = () => {
             <WayToOrganized />
             <Lightning />
             <Partners />
-            <Pricing />
             <Testimonials />
+            <Pricing />
             <Contactus />
         </div>
     )

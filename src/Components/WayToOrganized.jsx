@@ -11,14 +11,14 @@ const WayToOrganized = () => {
                             Fastest way to <br />organize
                         </h2>
 
-                        <p className="text-white md:mt-4 md:block text-xl">
+                        <p className="text-white md:mt-4 md:block text-2xl">
                             Most calendars are designed for teams. <br />Slate is designed for freelancers
                         </p>
 
                         <div className="pt-5 md:mt-8">
                             <a
                                 href="#"
-                                className="inline-block rounded-full bg-blue-500 px-12 py-3 text-sm font-medium text-white transition focus:outline-none"
+                                className="inline-block text-lg font-bold rounded-full bg-blue-500 px-12 py-3 text-white transition focus:outline-none"
                             >
                                 Try For Free
                             </a>
